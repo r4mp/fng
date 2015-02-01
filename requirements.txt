@@ -1,0 +1,2 @@
+cx-Freeze==4.3.4
+docopt==0.6.2
