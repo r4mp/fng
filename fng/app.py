@@ -149,7 +149,11 @@ class User(object):
         del lsr
 
     def show(self):
-    
+   
+        if self.username == '':
+            print('User not found!')
+            return
+ 
         u = ("Username                                            : " + self.username + "\n"
              "Real name                                           : " + self.realname + "\n"
              "Office number                                       : " + self.office_number + "\n"
